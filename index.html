@@ -1,0 +1,64 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="hotel.js"></script>
+    <title>ParkSide Hotel</title>
+</head>
+
+<body>
+
+    <h1>Welcome to ParkSide Hotel</h1>
+    <h2>New York | California | Miami</h2>
+
+    <p>
+        ParkSide has been around for 24 years now
+        <br>Our <b>mission</b> is to create the <em>best</em> and <em>most</em> comfortable enviorment for your stay
+        <br>Consider ParkSide your home away from home!
+    </p>
+
+    <a href=mailto:parksidehotel@yahoo.com>
+        <p>Contact us</p>
+    </a>
+
+    <hr>
+
+    <h3 id="form-statement">Please Fill out the Form Below: </h3>
+
+    <div class="container">
+        <ul>
+            <form name="customer">
+
+                <li>First name:</li>
+                <input type="text" id="first-name">
+                <li>Last name:</li>
+                <input type="text" id="last-name">
+                <li>Select Your Desired Room:</li>
+                <select name="desired-room" id="rooms">
+                    <option value="none"></option>
+                    <option value="standard" id="standard">Standard</option>
+                    <option value="deluxe" id="deluxe">Deluxe</option>
+                    <option value="suite" id="suite">Suite</option>
+                </select>
+                <li>Number of Days:</li>
+                <input type="number" name="days" id="days"><br>
+                <li>Email:<br>
+                    <input type=email id="mail">
+                    <br>
+                    <br>
+                    <button type="submit" id="button" onclick="customerInfo();">Submit</button>
+
+            </form>
+        </ul>
+
+    </div>
+    <p id="result"></p>
+    <p id="thanks">Thank You For Choosing ParkSide!</p>
+
+</body>
+
+</html>

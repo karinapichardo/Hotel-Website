@@ -1,0 +1,64 @@
+body,
+.container {
+    background-color: beige;
+    background: linear-gradient(to right, #F5F5DC, #FFE5B4);
+}
+
+.container {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,
+h2,
+h3,
+p {
+    text-align: center;
+}
+
+#thanks,
+#form-statement {
+    font-weight: bold;
+}
+
+#rooms {
+    width: 155px;
+    height: 25px;
+    font-size: 1em;
+}
+
+ul {
+    list-style: none;
+    padding: 15px;
+}
+
+#days {
+    width: 155px;
+    font-size: 1em;
+}
+
+
+form {
+    border: solid;
+    padding: inherit;
+    width: 400px;
+}
+
+button {
+    width: 60px;
+    height: 25px;
+    font-size: 14px;
+}
+
+button:hover {
+    color: indianred;
+}
+
+#first-name,
+#last-name,
+#mail {
+    font-size: 15px;
+}
